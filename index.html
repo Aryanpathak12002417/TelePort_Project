@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tester</title>
+</head>
+<body>
+    
+<h2>This is registration from testing</h2>
+<form method="post" action="http://localhost:4000/registerUser">
+
+    <input type="email" name="email" placeholder="emai"><br>
+    <input type="text" name="firstName" placeholder="First name"><hr>
+    <input type="text" name="lastName" placeholder="Last Name"><br>
+    <input type="number" name="phoneNumber" placeholder="phone"><br>
+    <input type="password" name="password" placeholder="password"><br>
+    <input type="country" name="country" placeholder="Country"><br>
+    <input type="text" name="userHandle" placeholder="user Handle"><br>
+    <input type="text" name="gender" placeholder="Gender"><br>
+    <button type="submit">Submit</button>
+
+
+</form>
+
+<h2>Check Email avability</h2>
+<form method="get" action="http://localhost:4000/checkEmail">
+    <input type="email" name="email" placeholder="email">
+    <button type="submit">Submit</button>
+
+</form>
+
+<h3>Updating Password</h3>
+<form method="post" action="http://localhost:4000/resetPassword">
+    <input type="email" name="email" placeholder="email"><br>
+    <input type="password" name="password" placeholder="password">
+    <button type="submit">Submit</button>
+</form>
+
+
+<h3>Login User</h3>
+<form method="post" action="http://localhost:4000/loginUser">
+    <input type="email" name="email" placeholder="email"><br>
+    <input type="password" name="password" placeholder="password">
+    <button type="submit">Submit</button>
+</form>
+
+
+</body>
+</html>

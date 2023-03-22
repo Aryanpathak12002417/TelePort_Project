@@ -1,0 +1,4 @@
+register user.
+login user.
+update password.
+check email.
